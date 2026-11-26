@@ -1,0 +1,11 @@
+renny bossi's rezepte
+=====================
+1) Alle Bilder bild-001.jpg bis bild-604.jpg in den Ordner "image" kopieren (Namen nicht ändern).
+2) index.html doppelklicken.
+3) Online stellen: den ganzen Ordner per FTP hochladen (z.B. Hostpoint -> public_html).
+
+index.html = Grundgerüst
+style.css  = Aussehen
+app.js     = Menü, Suche, Seiten
+daten.js   = alle Rezepte (nicht von Hand ändern)
+image/     = alle Fotos
