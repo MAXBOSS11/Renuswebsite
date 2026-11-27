@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>renny bossi's rezepte</title>
+<meta name="description" content="renny bossi's rezepte">
+<meta name="theme-color" content="#fbf7f1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="kopf">
+  <div class="kopf-innen">
+    <a class="marke" href="#/">renny bossi's <b>rezepte</b></a>
+    <nav class="menu" aria-label="Menü">
+      <a href="#/" data-nav="start">Start</a>
+      <a href="#/a-z/" data-nav="az">Rezepte A–Z</a>
+      <a href="#/länder/" data-nav="land">Länder</a>
+      <a href="#/suche/" data-nav="suche">Suchen</a>
+    </nav>
+    <button class="schrift" id="schrift" type="button" aria-label="Schrift grösser">A<span>A</span></button>
+  </div>
+</header>
+
+<main id="inhalt" tabindex="-1"></main>
+
+<footer class="fuss">
+  <p>6. Oktober 2019 - ©R.Boss</p>
+  <p>Website erstellt von <a href="https://maxboss.ch" target="_blank" rel="noopener">Max Boss</a></p>
+</footer>
+
+<nav class="leiste" aria-label="Menü">
+  <a href="#/" data-nav="start"><i>🏠</i>Start</a>
+  <a href="#/a-z/" data-nav="az"><i>📖</i>Rezepte</a>
+  <a href="#/länder/" data-nav="land"><i>🌍</i>Länder</a>
+  <a href="#/suche/" data-nav="suche"><i>🔍</i>Suchen</a>
+</nav>
+
+<button class="hoch" id="hoch" type="button" aria-label="Nach oben">↑</button>
+
+<div class="gross" id="gross" hidden>
+  <img id="grossbild" src="" alt="">
+  <button type="button" id="zu">✕ Schliessen</button>
+</div>
+
+<script src="daten.js"></script>
+<script src="app.js"></script>
+<script src="daten.js"></script>
+<script src="app.js"></script>
+<script src="gaestebuch.js"></script>   <!-- neu -->
+
+</body>
+</html>
